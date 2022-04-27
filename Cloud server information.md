@@ -12,10 +12,6 @@ mv ccc_cloud_ghost .ssh # If working in the arc server,
 ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 ```
 
-```jsx
-d&dYl!0n # password
-```
-
 # Once log in the server
 
 ```jsx
