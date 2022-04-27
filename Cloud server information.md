@@ -9,7 +9,7 @@ mv ccc_cloud_ghost .ssh # If working in the arc server,
 ```
 
 ```jsx
-ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null [arch@206.12.90.119](mailto:arch@206.12.90.119) 
+ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 ```
 
 ```jsx
