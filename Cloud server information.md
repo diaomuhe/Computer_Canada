@@ -1,15 +1,16 @@
 # Connecting to Compute Canada
 
 ```markdown
+# log from arc server
 chmod 600 ccc_cloud_ghost # change the permission of the file
-```
-
-```jsx
 mv ccc_cloud_ghost .ssh # If working in the arc server, 
+ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 ```
 
-```jsx
-ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
+```markdown
+# log from local window PC
+- Use MobaXterm to create a shell section, set up the startup directory which contains ccc_cloud_ghost
+
 ```
 # Transferring files to Computer Canada
 `scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null path_to_file/file arch@206.12.90.119:/bio/downloads`
