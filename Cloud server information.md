@@ -12,7 +12,7 @@ mv ccc_cloud_ghost .ssh # If working in the arc server,
 ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 ```
 # Transferring files to Computer Canada
-scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null path_to_file/file arch@206.12.90.119:/bio/downloads
+`scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null path_to_file/file arch@206.12.90.119:/bio/downloads`
 
 # Once log in the server
 
