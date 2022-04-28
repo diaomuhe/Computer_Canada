@@ -1,4 +1,4 @@
-# Compute Canada
+# Connecting to Compute Canada
 
 ```markdown
 chmod 600 ccc_cloud_ghost # change the permission of the file
@@ -11,6 +11,8 @@ mv ccc_cloud_ghost .ssh # If working in the arc server,
 ```jsx
 ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 ```
+# Transferring files to Computer Canada
+scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null path_to_file/file arch@206.12.90.119:/bio/downloads
 
 # Once log in the server
 
