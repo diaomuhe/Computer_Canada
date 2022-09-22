@@ -38,7 +38,7 @@ ls /bio/bin # available programs
 ```
 
 ```jsx
-source /bio/bin/profile
+source /bio/bin/profile # activate the progroms which are not python environment
 ```
 
 ```jsx
