@@ -12,8 +12,11 @@ ssh -i .ssh/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119
 - Use MobaXterm to create a shell section, set up the startup directory which contains ccc_cloud_ghost
 
 ```
-# Transferring files to Computer Canada
+# Transferring files from local PC to Computer Canada
 `scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null path_to_file/file arch@206.12.90.119:/bio/downloads`
+
+# Transferring files from Computer Canada to local PC
+`scp -i path_to_directory/ccc_cloud_ghost -o UserKnownHostsFile=/dev/null arch@206.12.90.119:/bio/data/muhe/html.zip /mnt/d/1_GOWN` #'/mnt/d/1_GOWN' is the local path 
 
 # Once log in the server
 
